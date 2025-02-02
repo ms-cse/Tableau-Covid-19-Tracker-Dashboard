@@ -1,0 +1,73 @@
+## Data issues to be handled using Pre-Processing Techniques
+
+
+### 1. Basic PreProcessing:
+rename - ObservationDate, Confirmed
+data type change - SNo, Cases, Deaths, Recovered
+drop - Last Update
+data type change - Report_Date
+Reorder Features
+
+
+### 2.
+Country ---> 
+'Mainland China', 'United Arab Emirates', ' Azerbaijan', ('St. Martin',), 'Bahamas, The', 'The Bahamas', 'Gambia, The', 'The Gambia', 'Fench Guiana', 'occupied Palestinian territory'
+
+
+Province ---> Part-1
+
+' Montreal, QC'
+' Norfolk County, MA'
+'Fench Guiana'
+
+'Falkland Islands (Islas Malvinas)', 'Falkland Islands (Malvinas)'
+
+'Virgin Islands'
+'Virgin Islands, U.S.'
+'United States Virgin Islands'
+
+'British Virgin Islands'
+'United Kingdom'
+
+'St Martin'
+
+
+Province ---> Part-2
+
+'Omaha, NE (From Diamond Princess)',
+'Travis, CA (From Diamond Princess)',
+'Lackland, TX (From Diamond Princess)',
+'Unassigned Location (From Diamond Princess)',
+
+'Unassigned Location, WA'
+'Unassigned Location, VT'
+'Unknown Location, MA'
+'Washington, D.C.'
+
+
+
+### 3. 
+Ships - Country ---> 'Others', 'Diamond Princess', 'MS Zaandam'
+Ships - Province ---> 'nan', 'Cruise Ship', 'Diamond Princess cruise ship', 'From Diamond Princess', 'Grand Princess Cruise Ship'
+
+
+
+### 4.
+Check ---> (US, Recovered), (Canada, Recovered)
+          
+
+
+### 5. 
+countries - province/state
+- Australia
+- Canada
+- China
+- Denmark
+- France
+- Netherlands
+- UK
+- US
+
+
+US, Canada, Netherlands:
+- State names (,)    - Done
